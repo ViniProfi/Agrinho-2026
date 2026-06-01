@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptação da Agricultura Brasileira às Mudanças Climáticas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1 id="site-title">AgroResiliência BR</h1>
+            <nav>
+                <ul>
+                    <li><a href="#contexto">Contexto</a></li>
+                    <li><a href="#riscos">Riscos</a></li>
+                    <li><a href="#estrategias">Estratégias</a></li>
+                    <li><a href="#simulador">Simulador</a></li>
+                    <li><a href="#desafios">Desafios</a></li>
+                </ul>
+            </nav>
+            <div class="accessibility-controls">
+                <button id="btn-font-decrease" aria-label="Diminuir fonte">A-</button>
+                <button id="btn-font-increase" aria-label="Aumentar fonte">A+</button>
+                <button id="theme-toggle" aria-label="Alternar tema">🌓</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero animate-in">
+        <div class="hero-overlay">
+            <div class="container">
+                <h2>Adaptação da Agricultura Brasileira às Mudanças Climáticas</h2>
+                <p>Análise detalhada sobre os impactos climáticos no campo brasileiro e as soluções tecnológicas para o futuro do setor.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="contexto" class="card animate-in">
+            <h2>1. Contexto: Por que a agricultura brasileira é vulnerável?</h2>
+            <p>O Brasil é uma potência agropecuária global, mas sua produção depende fortemente das condições climáticas. O aumento da temperatura média e a maior frequência de eventos extremos afetam diretamente a produtividade.</p>
+            
+            <div class="grid-3">
+                <div class="sub-card">
+                    <h3>Dependência das chuvas</h3>
+                    <p>Grande parte das lavouras é de sequeiro (não irrigada), dependendo do regime natural de precipitações.</p>
+                </div>
+                <div class="sub-card">
+                    <h3>Extensão territorial</h3>
+                    <p>Diferentes regiões enfrentam riscos climáticos distintos, exigindo estratégias descentralizadas.</p>
+                </div>
+                <div class="sub-card">
+                    <h3>Especialização produtiva</h3>
+                    <p>Culturas como soja, milho, café e cana possuem faixas climáticas ideais bastante específicas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="riscos" class="card animate-in">
+            <h2>2. Principais Riscos Climáticos por Região</h2>
+            <p>Clique nas abas abaixo para conferir os impactos mapeados por pesquisadores:</p>
+            
+            <div class="tabs">
+                <button id="tab-co" class="tab-btn active">Centro-Oeste</button>
+                <button id="tab-se" class="tab-btn">Sudeste</button>
+                <button id="tab-ne" class="tab-btn">Nordeste</button>
+                <button id="tab-su" class="tab-btn">Sul</button>
+            </div>
+
+            <div id="content-co" class="tab-content active-content">
+                <h3>Região Centro-Oeste</h3>
+                <p><strong>Riscos:</strong> Aumento da temperatura, maior duração das secas e atraso do período chuvoso.</p>
+                <p><strong>Consequências:</strong> Menor produtividade da soja e riscos severos para o milho safrinha.</p>
+            </div>
+
+            <div id="content-se" class="tab-content">
+                <h3>Região Sudeste</h3>
+                <p><strong>Riscos:</strong> Ondas de calor intensas, eventos extremos de chuva e escassez hídrica.</p>
+                <p><strong>Consequências:</strong> Prejuízos na cafeicultura, danos à horticultura e estresse na pecuária leiteira.</p>
+            </div>
+
+            <div id="content-ne" class="tab-content">
+                <h3>Região Nordeste</h3>
+                <p><strong>Riscos:</strong> Intensificação das secas e avanço da desertificação em áreas vulneráveis.</p>
+                <p><strong>Consequências:</strong> Queda de produtividade e forte pressão social sobre a agricultura familiar.</p>
+            </div>
+
+            <div id="content-su" class="tab-content">
+                <h3>Região Sul</h3>
+                <p><strong>Riscos:</strong> Chuvas torrenciais, enchentes frequentes e tempestades severas.</p>
+                <p><strong>Consequências:</strong> Erosão acentuada do solo, perda de safras e danos à infraestrutura rural.</p>
+            </div>
+        </section>
+
+        <section id="estrategias" class="card animate-in">
+            <h2>3. Estratégias de Adaptação Tecnológica</h2>
+            
+            <div class="grid-2">
+                <div class="tech-item">
+                    <img src="assets/img/ilpf-soja.jpg" alt="Sistema ILPF" class="tech-img">
+                    <h4>ILPF (Integração Lavoura-Pecuária-Floresta)</h4>
+                    <p>Diversifica a renda, melhora o solo e aumenta o conforto térmico animal com o sombreamento de árvores.</p>
+                </div>
+                
+                <div class="tech-item">
+                    <img src="assets/img/plantio_diretomt2-Senar.jpg" alt="Sistema Plantio Direto" class="tech-img">
+                    <h4>Sistema Plantio Direto</h4>
+                    <p>Evita o revolvimento da terra, conservando a umidade profunda e reduzindo a perda de nutrientes.</p>
+                </div>
+                
+                <div class="tech-item">
+                    <img src="assets/img/agroflorestal.jpeg" alt="Sistemas Agroflorestais" class="tech-img">
+                    <h4>Sistemas Agroflorestais</h4>
+                    <p>Consorciam árvores e plantações agrícolas, gerando regulação microclimática e protegendo a biodiversidade.</p>
+                </div>
+                
+                <div class="tech-item">
+                    <img src="assets/img/meloramento-genetico.webp" alt="Melhoramento Genético" class="tech-img">
+                    <h4>Melhoramento Genético</h4>
+                    <p>Desenvolvimento de sementes e cultivares tolerantes à seca prolongada e a novas pragas térmicas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="simulador" class="card animate-in">
+            <h2>4. Simulador de Resiliência de Propriedade</h2>
+            <p>Insira os dados da sua propriedade fictícia para calcular o nível estimado de adaptação climática baseado no plano ABC+:</p>
+            
+            <form id="form-simulador" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="select-regiao">Selecione a Região da Propriedade:</label>
+                    <select id="select-regiao" required>
+                        <option value="">-- Escolha uma região --</option>
+                        <option value="centro-oeste">Centro-Oeste</option>
+                        <option value="sudeste">Sudeste</option>
+                        <option value="nordeste">Nordeste</option>
+                        <option value="sul">Sul</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="input-tecnologias">Quantas tecnologias sustentáveis você aplica? (De 0 a 6):</label>
+                    <input type="number" id="input-tecnologias" min="0" max="6" placeholder="Ex: 2" required>
+                </div>
+
+                <button type="button" id="btn-calcular">Analisar Resiliência</button>
+            </form>
+
+            <div id="resultado-simulacao" class="resultado-box hidden">
+                <h3>Resultado da Análise</h3>
+                <p id="texto-resultado">Aguardando dados...</p>
+            </div>
+        </section>
+
+        <section id="desafios" class="card animate-in">
+            <h2>5. Obstáculos e Políticas Públicas</h2>
+            <p>O principal pilar governamental é o <strong>Plano ABC+ (2020-2030)</strong>, focado na expansão de sistemas de baixa emissão de carbono.</p>
+            <div style="overflow-x: auto;">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Gargalo Identificado</th>
+                            <th>Impacto no Campo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Baixa adoção tecnológica</td>
+                            <td>Reduz a resiliência de pequenos produtores frente a estiagens.</td>
+                        </tr>
+                        <tr>
+                            <td>Falta de crédito climático</td>
+                            <td>Dificulta o investimento inicial em infraestrutura verde sustentável.</td>
+                        </tr>
+                        <tr>
+                            <td>Desmatamento ilegal</td>
+                            <td>Prejudica o regime de chuvas que alimenta os aquíferos agrícolas.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Fontes: Embrapa, Ministério da Agricultura (Plano ABC+), WRI Brasil e IPCC.</p>
+            <p>&copy; 2026 - Projeto Desenvolvido para o Concurso Agrinho Programação.</p>
+        </div>
+    </footer>
+</body>
+</html>
