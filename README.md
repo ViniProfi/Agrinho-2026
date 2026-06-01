@@ -17,5 +17,5 @@ O projeto foi construído do zero, utilizando tecnologias web nativas para garan
    - Use os botões **A+** e **A-** no menu superior para aumentar ou diminuir o tamanho dos textos em tempo real.
    - Clique no ícone da lua/sol para alternar instantaneamente entre o **Modo Claro** e o **Modo Escuro**, que salva a preferência do usuário localmente no navegador.
 
-## 🎨 Ferramentas de Design e Customização de Mídias
-Para evitar layouts genéricos e garantir mídias adequadas ao tema, as imagens utilizadas nas estratégias tecnológicas e o banner principal passaram por tratamento, corte e otimização utilizando a ferramenta **Canva** e o editor **Paint**, garantindo uma identidade visual coesa e autoral para o projeto.
+## 🎨 Ferramentas de Design e Fontes de Mídias
+As imagens utilizadas no projeto (como ilustrações de ILPF, Plantio Direto, etc.) foram obtidas de acervos públicos e informativos da internet (como Senar e Embrapa) e passaram por um processo de customização profunda, corte e otimização de resolução através das ferramentas **Canva** e **Paint**, garantindo uma identidade visual harmônica e coesa com o tema.
